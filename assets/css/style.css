@@ -6,17 +6,19 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #fafafa77; 
+    color: #fafafa; 
+    background-color: #8BAD97;
 }
 
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: #04060C;
 }
 
 #main {
     float: left;
     margin-left: 30px;
+    color: #04060C;
 }
 
 #page {
@@ -25,14 +27,27 @@ h1, h2 {
 
 #page ul {
     float: right;
+    color: #04060C;
 
 }
 
 #page li {
     float: left;
     margin-right: 50px;
+    list-style-type: none;
 }
 
 #page a {
     text-decoration: none;
+    color: #04060C;
+}
+
+#page a:hover {
+    border-bottom: thick;
+    border-style: dotted;
+}
+
+.current {
+    border-bottom: thick;
+    border-style: dotted;
 }
