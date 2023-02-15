@@ -17,8 +17,9 @@ h1, h2 {
 
 #main {
     float: left;
-    margin-left: 30px;
+    margin: 20px 0 0 30px;
     color: #04060C;
+
 }
 
 #page {
@@ -33,8 +34,9 @@ h1, h2 {
 
 #page li {
     float: left;
-    margin-right: 50px;
+    margin: 30px 50px;
     list-style-type: none;
+    
 }
 
 #page a {
@@ -50,4 +52,27 @@ h1, h2 {
 .current {
     border-bottom: thick;
     border-style: dotted;
+}
+
+/* Hero Image section */
+
+/* #image {
+    background-color: #fafafa;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+
+} */
+
+#main-image {
+    background-color: #fafafa;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
