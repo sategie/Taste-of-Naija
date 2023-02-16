@@ -65,7 +65,7 @@ h1, h2 {
 } */
 
 #main-image {
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     height: 700px;
     width: 100%;
     overflow: hidden;
@@ -77,14 +77,20 @@ h1, h2 {
     object-fit: cover;
 }
 
-
-
+#contact-open {
+    text-align: center;
+    color: #04060C;
+    display: inline-block;
+    margin: 20px;
+}
 
 
 
 /* Table border style */
 
 table, th, td {
-    border: 1px solid black
+    border: 1px solid black;
+    padding: 2px;
+    border-spacing: 1px;
+    margin: 0 auto;
 }
-
