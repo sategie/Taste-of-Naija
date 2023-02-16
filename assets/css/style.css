@@ -77,3 +77,8 @@ h1, h2 {
     object-fit: cover;
 }
 
+#open {
+    text-align: center;
+    margin: 20px;
+}
+
