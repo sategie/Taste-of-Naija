@@ -65,7 +65,7 @@ h1, h2 {
 } */
 
 #main-image {
-    height: 700px;
+    height: 620px;
     width: 100%;
     overflow: hidden;
 }
@@ -126,6 +126,8 @@ h1, h2 {
 
 
 
+
+
 /* Table border style */
 
 table, th, td {
@@ -133,4 +135,20 @@ table, th, td {
     padding: 2px;
     border-spacing: 1px;
     margin: 0 auto;
+}
+
+footer {
+    background-color: #e9e4eb;
+    text-align: center;
+    color: #04060C;
+    padding: 3px;
+}
+
+footer > h3 {
+    margin: 10px;
+}
+
+footer > a {
+    text-decoration: none;
+    font-size: larger;
 }
