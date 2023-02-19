@@ -160,6 +160,7 @@ footer > a {
 
 .menu-contain {
     display: flex;
+    clear: both;
 }
 
 .menu-contain-image {
