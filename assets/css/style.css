@@ -152,3 +152,28 @@ footer > a {
     text-decoration: none;
     font-size: larger;
 }
+
+/* Menu styling */
+
+.menu-contain {
+    display: flex;
+}
+
+.menu-contain-image {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1em;
+    flex-shrink: 0;
+}
+
+.menu-contain-text {
+    flex-grow: 1;
+    color: #04060C;
+}
+
+.menu-contain-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
