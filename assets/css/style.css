@@ -8,6 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #fafafa; 
     background-color: #8BAD97;
+    padding-bottom: 70px;
 }
 
 h1, h2 {
@@ -19,7 +20,6 @@ h1, h2 {
     float: left;
     margin: 20px 0 0 30px;
     color: #04060C;
-
 }
 
 #page {
@@ -79,14 +79,16 @@ h1, h2 {
 .contact-open {
     text-align: center;
     color: #04060C;
-    /* display: inline-block;
-    position: relative; */
-    margin: 10px;
 }
 
 .contact-open #title {
     text-align: center;
-    margin-left: 90px;
+    /* background-color: #e9e4eb; */
+
+}
+
+#title {
+    /* padding: 5px; */
 }
 
 
@@ -139,7 +141,7 @@ table, th, td {
 
 footer {
     background-color: #e9e4eb;
-    text-align: center;
+    text-align: center; 
     color: #04060C;
     padding: 3px;
     position: fixed;
@@ -161,6 +163,7 @@ footer > a {
 .menu-contain {
     display: flex;
     clear: both;
+    padding: 0.8em;
 }
 
 .menu-contain-image {
