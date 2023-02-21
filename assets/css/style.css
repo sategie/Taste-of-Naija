@@ -88,19 +88,26 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 0.8em;
-  } 
+  }
+
+  .contact-open h3 {
+    padding-bottom: 3px;
+  }
 
   .left {
     padding-left: 30px;
+    flex-shrink: 0;
   }
   
   .middle {
     /* text-align: center; */
     padding-left: 140px;
+    flex-shrink: 0;
   }
 
   .right {
     padding-right: 30px;
+    flex-shrink: 0;
   }
   
 /* Table border style */
