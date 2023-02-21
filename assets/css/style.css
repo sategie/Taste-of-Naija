@@ -82,48 +82,13 @@ h2 {
     object-fit: cover;
 }
 
+/* Contact and Opening Times section */
+
 .contact-open {
-    text-align: center;
-    color: #04060C;
-}
-
-.contact-open #title {
-    text-align: center;
-    /* background-color: #e9e4eb; */
-
-}
-
-.contact-open .left {
-    margin-top: -20px;
-    float: left;
-    justify-content: left;
-}
-
-.left {
-    padding: 20px;
-    line-height: 20px;
-}
-
-.contact-open .right {
-    margin-top: -160px;
-    float: right;
-    justify-content: right;
-
-}
-
-.right {
-    padding: 20px;
-}
-
-.contact-open .middle {
-    margin-top: -40px;
-    text-align: center;
-}
-
-.middle {
-    padding: 20px;
-    line-height: 30px;
-}
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em;
+  } 
 
 
 
@@ -137,6 +102,8 @@ td {
     border-spacing: 1px;
     margin: 0 auto;
 }
+
+/* Footer styling */
 
 footer {
     background-color: #8BAD97;
