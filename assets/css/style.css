@@ -98,11 +98,19 @@ h2 {
     padding-left: 30px;
     flex-shrink: 0;
   }
+
+  .left p {
+    line-height: 1.5;
+  }
   
   .middle {
     /* text-align: center; */
     padding-left: 140px;
     flex-shrink: 0;
+  }
+
+  .middle p {
+    line-height: 1.5;
   }
 
   .right {
