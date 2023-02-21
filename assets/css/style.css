@@ -90,8 +90,19 @@ h2 {
     padding: 0.8em;
   } 
 
+  .left {
+    padding-left: 30px;
+  }
+  
+  .middle {
+    /* text-align: center; */
+    padding-left: 140px;
+  }
 
-
+  .right {
+    padding-right: 30px;
+  }
+  
 /* Table border style */
 
 table,
@@ -117,6 +128,7 @@ footer {
 
 footer>h3 {
     margin: 10px;
+    padding-right: 50px;
 }
 
 footer>a {
