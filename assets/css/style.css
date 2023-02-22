@@ -99,7 +99,7 @@ h2 {
   }
 
   .left {
-    padding-left: 30px;
+    padding-left: 3rem;
     flex-shrink: 0;
   }
 
@@ -118,7 +118,7 @@ h2 {
   }
 
   .right {
-    padding-right: 3px;
+    padding-right: 3rem;
     flex-shrink: 0;
   }
   
@@ -148,7 +148,7 @@ footer {
 
 footer>h3 {
     margin: 0.1rem;
-    padding-right: 5rem;
+    padding-right: 3rem;
 }
 
 footer>a {
@@ -175,6 +175,8 @@ footer>a {
     flex-grow: 1;
     color: #04060C;
     font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
 }
 
 .menu-contain-heading {
@@ -185,12 +187,14 @@ footer>a {
 /* Feedback page styling */
 
 #intro {
+    margin-left: 1.5rem;
     padding: 2rem;
     font-size: 1.5rem;
 }
 
 .form-wrap {
     width: 40rem;
+    margin-left: 1.5rem;
     padding: 2rem;
     font-size: 1.5rem;
 }
@@ -206,4 +210,12 @@ footer>a {
     background: #8BAD97;
     display: inline-block;
     padding: 1rem;
+}
+
+.click {
+    margin-top: 1.5rem;
+}
+
+.click:hover {
+    border-style: dotted;
 }
