@@ -31,10 +31,11 @@ h2 {
     float: left;
     margin: 2rem 0 0 3rem;
     color: #04060C;
+    width: 50%;
 }
 
 #page {
-    font-size: large;
+    font-size: 2rem;
 }
 
 #page ul {
@@ -109,7 +110,7 @@ h2 {
   
   .middle {
     /* text-align: center; */
-    padding-left: 14rem;
+    padding-left: 3rem;
     flex-shrink: 0;
   }
 
@@ -139,7 +140,7 @@ footer {
     background-color: #8BAD97;
     text-align: center;
     color: #04060C;
-    padding: 0.3rem;
+    padding: 0.3rem 8.6rem 0.3rem 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -148,7 +149,7 @@ footer {
 
 footer>h3 {
     margin: 0.1rem;
-    padding-right: 3rem;
+    padding-right: 3.3rem;
 }
 
 footer>a {
