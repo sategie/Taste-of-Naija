@@ -220,3 +220,23 @@ footer>a {
 .click:hover {
     border-style: dotted;
 }
+
+/* Media query for 1100px and below */
+
+@media screen and (max-width:1100px) {
+  
+    #page {
+        float: left;
+      margin-left: -1rem;
+      clear: left;
+      
+      }
+    }
+
+    /* Media query for 800px and below */
+
+    @media screen and (max-width:800px) {
+        footer {
+            padding-left: 0;
+        }
+    }
