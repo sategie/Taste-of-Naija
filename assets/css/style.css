@@ -272,9 +272,21 @@ width: 80%;
 
 @media screen and (max-width:488px) {
 
-  #page li {
-    float: left;
-    width: 80%;
+    #page li {
+      float: left;
+      width: 80%;
+    }
+  
+    footer {
+      display: block;
+      height: 6rem;
+      line-height: 3rem;
+    }
+  
+    footer > a {
+      margin-left: 4rem;
+      float: left;
+    }
+  
+  
   }
-
-}
