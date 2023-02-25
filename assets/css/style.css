@@ -147,6 +147,7 @@ footer {
     font-size: 1.8rem;
     display: flex;
     justify-content: space-between;
+    overflow: auto;
 }
 
 footer > h3 {
@@ -247,5 +248,5 @@ footer > a {
     }
 }
 
-/* Media query for 800px and below */
+/* Media query for 700px and below */
 
