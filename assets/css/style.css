@@ -8,18 +8,20 @@ html {
     font-size: 62.5%;
 }
 
-header {
-    overflow: auto;
-    background-color: #8BAD97;
-    font-size: 2rem;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     /* color: #fafafa; */
     background-color: #e9e4eb;
     padding-bottom: 7rem;
 }
+
+header {
+    overflow: auto;
+    background-color: #8BAD97;
+    font-size: 2rem;
+}
+
+
 
 h1,
 h2 {
@@ -29,9 +31,13 @@ h2 {
 
 #main {
     float: left;
-    margin: 2rem 0 0 3rem;
+    margin: 3rem 0 0 3rem;
     color: #04060C;
-    width: 50%;
+    font-size: 4rem;
+}
+
+#main, #page {
+  line-height: 2rem;
 }
 
 #page {
@@ -41,6 +47,7 @@ h2 {
 #page ul {
     float: right;
     color: #04060C;
+    margin-right: 3rem;
 
 }
 
@@ -48,7 +55,10 @@ h2 {
     float: left;
     margin: 3rem 5rem;
     list-style-type: none;
+}
 
+#page ul li {
+  margin-right: 0.1rem;
 }
 
 #page a {
@@ -57,11 +67,11 @@ h2 {
 }
 
 #page a:hover {
-    border-bottom: 0.5rem dotted;
+    border-bottom: 0.3rem dotted;
 }
 
 .current {
-    border-bottom: 0.5rem dotted;
+    border-bottom: 0.3rem solid;
 }
 
 /* Hero Image section */
