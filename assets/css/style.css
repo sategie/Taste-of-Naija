@@ -229,12 +229,14 @@ footer>a {
     width: 100%;
     margin-bottom: 1rem;
     padding: 1rem;
+    font-size: 1.4rem;
 }
 
 .form-wrap textarea {
     width: 100%;
     margin-bottom: 1rem;
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .form-wrap .click {
