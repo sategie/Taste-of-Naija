@@ -10,17 +10,18 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /* color: #fafafa; */
     background-color: #e9e4eb;
     padding-bottom: 7rem;
 }
+
+/* Page header section styling */
+/* Idea for header section styling taken from Code Institute's Love Running project */
 
 header {
     overflow: auto;
     background-color: #8BAD97;
     font-size: 2rem;
 }
-
 
 
 h1,
@@ -36,8 +37,9 @@ h2 {
     font-size: 4rem;
 }
 
-#main, #page {
-  line-height: 2rem;
+#main,
+#page {
+    line-height: 2rem;
 }
 
 #page {
@@ -58,7 +60,7 @@ h2 {
 }
 
 #page ul li {
-  margin-right: 0.1rem;
+    margin-right: 0.1rem;
 }
 
 #page a {
@@ -76,13 +78,6 @@ h2 {
 
 /* Hero Image section */
 
-/* #image {
-    background-color: #fafafa;
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-
-} */
 
 #main-image {
     height: 62rem;
@@ -119,7 +114,6 @@ h2 {
 }
 
 .middle {
-    /* text-align: center; */
     padding-left: 3rem;
     flex-shrink: 0;
 }
@@ -160,12 +154,12 @@ footer {
     overflow: auto;
 }
 
-footer>h3 {
+footer > h3 {
     margin-left: 4rem;
     flex-grow: 1;
 }
 
-footer>a {
+footer > a {
     text-decoration: none;
     flex-grow: 1;
 }
@@ -271,14 +265,14 @@ footer>a {
 @media screen and (max-width:770px) {
 
     .contact-open {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
     }
 
-.right {
-    padding-left: 3rem;
-}
+    .right {
+        padding-left: 3rem;
+    }
 
 }
 
@@ -287,48 +281,101 @@ footer>a {
 @media screen and (max-width:488px) {
 
     #page ul li {
-      float: left;
-      width: 80%;
+        float: left;
+        width: 80%;
     }
 
-  .menu-contain-image {
-    width: 8rem;
-    height: 8rem;
-  }
+    .menu-contain-image {
+        width: 8rem;
+        height: 8rem;
+    }
 
-  .menu-contain {
-    clear: left;
-  }
+    .menu-contain {
+        clear: left;
+    }
 
-  .menu-list {
-    font-size: 1.6rem;
-  }
+    .menu-list {
+        font-size: 1.6rem;
+    }
 
-  .menu-price {
-    font-size: 1.6rem;
-  }
+    .menu-price {
+        font-size: 1.6rem;
+    }
 
 
-.form-wrap {
-    width: 35rem;
-}
+    .form-wrap {
+        width: 35rem;
+    }
 
-  textarea {
-    width: 31rem;
-}
+    textarea {
+        width: 31rem;
+    }
 
-  
+
     footer {
-      display: block;
-      height: 6rem;
-      line-height: 3rem;
-      padding-left: 5rem;
+        display: block;
+        height: 6rem;
+        line-height: 3rem;
+        padding-left: 5rem;
     }
-  
+
+    footer>a {
+        margin-left: 1rem;
+        margin: 0 auto;
+    }
+
+
+}
+
+/* Media query for 382px and below */
+
+@media screen and (max-width:382px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .menu-contain-image {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .menu-contain-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-bottom: 5rem;
+    }
+
+
+    .menu-list {
+        font-size: 1.6rem;
+        margin-right: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .menu-price {
+        font-size: 1.6rem;
+    }
+
+
+    .form-wrap {
+        width: 30rem;
+    }
+
+    textarea {
+        width: 26rem;
+    }
+
+    footer {
+        padding-left: 2.5rem;
+    }
+
     footer > a {
-      margin-left: 1rem;
-      margin: 0 auto;
-    }
-  
-  
-  }
+        margin-left: 1rem;
+        margin 0 auto;
+      }
+
+}
