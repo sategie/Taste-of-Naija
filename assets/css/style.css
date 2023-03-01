@@ -157,7 +157,6 @@ td {
 
 footer {
     background-color: #8BAD97;
-    color: #04060C;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -170,6 +169,7 @@ footer {
 
 footer #foot a {
     text-decoration: none;
+    color: #04060C;
 }
 
 #foot {
