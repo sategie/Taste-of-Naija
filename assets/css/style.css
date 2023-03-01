@@ -36,6 +36,9 @@ h2, h3 {
     color: #04060C;
 }
 
+p {
+  font-size: 1.7rem;
+}
 #main {
     float: left;
     margin: 3rem 0 0 3rem;
