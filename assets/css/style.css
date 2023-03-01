@@ -12,6 +12,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e9e4eb;
     padding-bottom: 7rem;
+    max-width: 195rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Page header section styling */
@@ -113,9 +116,9 @@ h2 {
     line-height: 1.5;
 }
 
-.left > a {
+.left>a {
     font-weight: bold;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .middle {
@@ -159,21 +162,21 @@ footer {
     overflow: auto;
 }
 
-footer > h3 {
+footer>h3 {
     margin-left: 4rem;
     flex-grow: 1;
 }
 
-footer > a {
+footer>a {
     font-weight: bold;
     text-decoration: none;
     flex-grow: 1;
 }
 
-footer > a:hover {
+footer>a:hover {
     color: #1877f2;
-    
-  }
+
+}
 
 
 /* Menu styling */
@@ -332,10 +335,10 @@ footer > a:hover {
     }
 
 
-    footer > a {
+    footer>a {
         margin-left: 1rem;
         text-align: center;
-      }
+    }
 
 
 }
@@ -387,9 +390,9 @@ footer > a:hover {
         margin: 0 auto;
     }
 
-    footer > a {
+    footer>a {
         margin-left: 1rem;
         text-align: center;
-      }
+    }
 
 }
