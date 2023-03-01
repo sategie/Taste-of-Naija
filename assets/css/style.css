@@ -108,6 +108,11 @@ p {
     justify-content: space-between;
     padding: 1rem;
     font-size: 1.6rem;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .contact-open h2 {
