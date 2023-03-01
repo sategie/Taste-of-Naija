@@ -31,7 +31,9 @@ header {
 }
 
 
-h1, h2, h3 {    
+h1,
+h2,
+h3 {
     font-weight: bolder;
     color: #04060C;
 }
@@ -158,25 +160,23 @@ footer {
     bottom: 0;
     width: 100%;
     height: 5rem;
+    left: 0;
     line-height: 5rem;
     font-size: 1.8rem;
-    display: flex;
-    justify-content: space-between;
     overflow: auto;
 }
 
-/* footer>h3 {
-    margin-left: 4rem;
-    flex-grow: 1;
-} */
-
-footer>a {
-    font-weight: bold;
+footer #foot a {
     text-decoration: none;
-    flex-grow: 1;
 }
 
-footer>a:hover {
+#foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#foot>a:hover {
     color: #1877f2;
 
 }
