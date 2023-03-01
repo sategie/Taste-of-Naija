@@ -327,23 +327,7 @@ footer #foot a {
     textarea {
         width: 31rem;
     }
-
-
-    footer {
-        display: block;
-        height: 6rem;
-        line-height: 3rem;
-        padding-left: 5rem;
-        margin: 0 auto;
-    }
-
-
-    footer>a {
-        margin-left: 1rem;
-        text-align: center;
-    }
-
-
+    
 }
 
 /* Media query for 382px and below */
@@ -386,16 +370,6 @@ footer #foot a {
 
     textarea {
         width: 26rem;
-    }
-
-    footer {
-        padding-left: 2.5rem;
-        margin: 0 auto;
-    }
-
-    footer>a {
-        margin-left: 1rem;
-        text-align: center;
     }
 
 }
