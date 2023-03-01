@@ -31,13 +31,14 @@ header {
 }
 
 
-h1,
-h2,
-h3 {
+h2, h3 {
     font-weight: bolder;
     color: #04060C;
 }
 
+p {
+  font-size: 1.7rem;
+}
 #main {
     float: left;
     margin: 3rem 0 0 3rem;
@@ -327,7 +328,7 @@ footer #foot a {
     textarea {
         width: 31rem;
     }
-    
+
 }
 
 /* Media query for 382px and below */
