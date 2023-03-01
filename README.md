@@ -5,3 +5,14 @@ The website provides useful information about the restaurant such as the address
 
 ![Image of Taste of Naija website on different devices](/assets/images/taste_of_naija.png)
 
+## Features
+
+### Existing Features
+
+- Navigation Bar
+
+- This appears on all three pages in the project. It inlcludes links to the 'Taste of Naija' logo, the Start, Menu and Feedback pages.
+- The section is identical on all pages and allows the user to navigate from one page to another without having to go back to the Start page.
+
+
+
