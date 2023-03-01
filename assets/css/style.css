@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
 
 
 * {
@@ -12,8 +12,8 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     background-color: #e9e4eb;
     padding-bottom: 7rem;
     max-width: 195rem;
@@ -31,9 +31,8 @@ header {
 }
 
 
-h1,
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
+h1, h2, h3 {    
+    font-weight: bolder;
     color: #04060C;
 }
 
@@ -107,7 +106,7 @@ h2 {
     font-size: 1.5rem;
 }
 
-.contact-open h3 {
+.contact-open h2 {
     padding-bottom: 0.3rem;
 }
 
@@ -166,10 +165,10 @@ footer {
     overflow: auto;
 }
 
-footer>h3 {
+/* footer>h3 {
     margin-left: 4rem;
     flex-grow: 1;
-}
+} */
 
 footer>a {
     font-weight: bold;
