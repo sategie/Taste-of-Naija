@@ -86,7 +86,17 @@ The website provides useful information about the restaurant such as the address
 
  ## Testing
 
- 
+ - CSS
+    - No errors were found using the W3C CSS (jigsaw) Validator
+
+![Screenshot of CSS validator showing  no errors in CSS](/assets/images/css_validator.png)
+
+The link to the full validation results can be found here:
+
+http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsategie.github.io%2FTaste-of-Naija%2F&usermedium=all&vextwarning=&warning=1
+
+
+
 
 
 
