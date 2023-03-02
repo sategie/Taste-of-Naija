@@ -44,6 +44,37 @@ The website provides useful information about the restaurant such as the address
 
 ![Screenshot of footer page](/assets/images/footer.png)
 
+- The Menu
+
+    - The menu section displays the different dishes on offer by the restaurant with their corresponding prices.
+
+    - On smaller screens, the pictures are made slightly bigger while the prices are placed beneath the dish names using the 'flex-direction:column;' property
+
+![Food menu and price list](/assets/images/food_menu.png)
+
+- The Feedback
+
+    - The feedback section allows users provide useful suggestions and ideas to help the restaurant improve its services.
+
+    - The First Name, Age and Feedback fields are required and prompt the users to fill them out before they can submit the form.
+
+    - There is a 'Clear Form' button which enables the user clear the entire form if they wish to do so.
+
+![Feedback form](/assets/images/feedback.png)
+
+### Features Left to Implement
+
+- Hamburger Menu
+
+    - A hamburger menu to appear for the different pages on smaller screen sizes.
+
+## Testing
+
+
+
+
+
+
 
 
 
