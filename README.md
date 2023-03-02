@@ -68,7 +68,25 @@ The website provides useful information about the restaurant such as the address
 
     - A hamburger menu to appear for the different pages on smaller screen sizes.
 
-## Testing
+## Technologies Used
+
+- The following technologies were used in creating this project:
+
+ - HTML5
+
+ - CSS3
+
+ - Google Fonts: This was used to import the Open Sans and Roboto fonts used throughout the project.
+
+ - Git/Github: This was used for the actual coding of the project via Gitpod and also provided version control as well as remote storage for the project.
+
+ - Screenpresso: Used to capture the screenshots for the Readme document
+
+ - Marvel App: Used to design the wireframes for the project at the initial design stages
+
+ ## Testing
+
+ 
 
 
 
