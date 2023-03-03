@@ -109,9 +109,7 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
     - The only thing that stood out while using Firefox was the 'Age' field in the Feedback page which displays the number selector icon constantly while the other browsers only display the selector icon when the field is hovered on.
 
-| ![Feedback page on Google Chrome](/assets/images/feedback_chrome.png) |
-
-|:--:|
+![Feedback page on Firefox](/assets/images/feedback_firefox.png)
 
 | <b>Feedback page on Firefox</b> |
 
