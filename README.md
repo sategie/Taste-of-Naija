@@ -99,11 +99,22 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
 - Browser Compatibility
 
+ - The project was tested on the three browsers listed below. The pages ran smoothly on all three browsers and there were no significant differences in the different browsers. The only thing that stood out from the rest was the 'Age' field in the Feedback page displays the number selector icon constantly while the other browsers only display the selector icon when the field is hovered on.
+
     - Google Chrome Version 110.0.5481.178 (Official Build) (64-Bit)
+
+![Feedback page on Google Chrome](/assets/images/feedback_chrome.png)
 
     - Microsoft Edge Version 110.0.1587.57 (Official build) (64-bit)
 
-    - Firefox 
+![Feedback page on Microsoft Edge](/assets/images/feedback_edge.png)
+
+    - Firefox Version 110.0.1 (64-bit)
+
+![Feedback page on Firefox](/assets/images/feedback_firefox.png)
+
+
+
 
 
 
