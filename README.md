@@ -107,7 +107,7 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
         
         - Firefox Version 110.0.1 (64-bit)
 
-    - The only thing that stood out while using Firefox was the 'Age' field in the Feedback page which displays the number selector icon constantly while the other browsers only display the selector icon when the field is hovered on.
+    - The only thing that stood out while using Firefox was the 'Age' field in the Feedback page which displays the number selector icon constantly, while the other browsers only display the selector icon when the field is hovered on.
 
 ![Feedback page on Firefox](/assets/images/feedback_firefox.png)
 
@@ -124,6 +124,29 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
     3. Under *Pages*, select the *main* branch from the dropdown menu in the *Branch* section and click on *Save*.
 
 The project is live at https://sategie.github.io/Taste-of-Naija/
+
+## Credit
+
+- Content
+
+    - The idea for the Header HTML and CSS was taken from Code Institute's Love Running project.
+
+    - The idea to use flexbox for the Menu section was taken from a Youtube Video: 'Create a Restaurant Menu with HTML & CSS Grid + Flexbox'
+
+    - The fonts used for the project were obtained from Google Fonts.
+
+- Media
+
+    - The images used in the project were downloaded mostly from Unsplash.
+
+## Acknowledgements
+
+- I am extremely grateful to my family for supporting me in my coding journey thus far.
+
+- Special thanks go to my mentor Brian Macharia who gave me useful tips and improvement areas to enable me complete the project.
+
+- Last but not least, I would like to thank the Code Institute communitiy on Slack for helping me out whenever I had HTML/CSS related questions.
+
 
 
 
