@@ -113,6 +113,21 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
 | <b>Feedback page on Firefox</b> |
 
+## Deployment
+
+- The site was deployed to Github using the following steps:
+
+    1. In the Taste of Naija repository in Github, click on Settings.
+
+    2. Click on *Pages* under *Code and Automation* on the left hand side.
+
+    3. Under *Pages*, select the *main* branch from the dropdown menu in the *Branch* section and click on *Save*.
+
+The project is live at https://sategie.github.io/Taste-of-Naija/
+
+
+
+
 
 
 
