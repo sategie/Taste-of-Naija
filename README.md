@@ -157,7 +157,7 @@ The project is live at https://sategie.github.io/Taste-of-Naija/
 
 - Special thanks go to my mentor Brian Macharia who gave me useful tips and improvement areas to enable me complete the project.
 
-- Last but not least, I would like to thank the Code Institute communitiy on Slack for helping me out whenever I had HTML/CSS related questions.
+- Last but not least, I would like to thank the Code Institute community on Slack for helping me out whenever I had HTML/CSS related questions.
 
 
 
