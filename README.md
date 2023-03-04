@@ -113,6 +113,12 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
 | <b>Feedback page on Firefox</b> |
 
+- Lighthouse
+
+    - Lighthouse was used to test the project using the following criteria: Performance, Accessibility, Best Practices and SEO.
+
+ ![Screenshot of project testing results on Lighthouse](/assets/images/lighthouse_testing.png)
+
 ## Deployment
 
 - The site was deployed to Github using the following steps:
