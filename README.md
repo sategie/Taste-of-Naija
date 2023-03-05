@@ -93,6 +93,7 @@ The website provides useful information about the restaurant such as the address
         - No errors were found using the official W3C validator
 
     - CSS
+
         - No errors were found using the W3C CSS (jigsaw) Validator
 
 ![Screenshot of HTML validator showing no errors in HTML](/assets/images/html_validator.png)
@@ -137,7 +138,39 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
 The project is live at https://sategie.github.io/Taste-of-Naija/
 
-## Credit
+- **How to Fork the Repository**
+
+    - You can make a copy of the project to make changes which do not affect the original repository by doing the following:
+
+    1. Go to the project's Github repository https://github.com/sategie/Taste-of-Naija/blob/main/README.md
+
+    2. Click on the 'Fork' button on the top right of the screen.
+
+- **How to Clone the Repository**
+
+    - To make a clone of the repository, the following need to be done:
+
+        1. Go to the project's Github repository https://github.com/sategie/Taste-of-Naija/blob/main/README.md
+
+        2. Click the green 'Code' button on the right.
+
+        3. Click on HTTPS and copy the link.
+
+        4. Open Git and change the working directory to where you want to have the cloned directory.
+
+        5. Type *git clone* and paste the copied URL.
+
+    - To make changes to the website, the following need to be done:
+
+        1. Type *git add .*
+
+        2. Type *git commit -m "short update comment"
+
+        3. Type *git push*
+
+    - Any updates commited to the main branch inmediately reflect in the hosted site.
+
+## Credits
 
 - Content
 
