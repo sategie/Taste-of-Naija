@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
 
 * {
@@ -33,11 +33,12 @@ header {
 
 
 h2, h3 {
-    font-weight: bolder;
+    font-weight: bold;
     color: #04060C;
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
   font-size: 1.7rem;
 }
 #main {
@@ -152,6 +153,8 @@ p {
 table,
 th,
 td {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
     border: 0.1rem solid black;
     padding: 0.2rem;
     border-spacing: 0.1rem;
@@ -207,8 +210,9 @@ footer #foot a {
 }
 
 .menu-contain-text {
-    color: #04060C;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.7rem;
+    color: #04060C;
     padding-left: 1.5rem;
     padding-right: 2rem;
     flex-grow: 1;
@@ -245,25 +249,28 @@ footer #foot a {
 }
 
 .form-wrap .input-data {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
     width: 100%;
     margin-bottom: 1rem;
     padding: 1rem;
-    font-size: 1.6rem;
 }
 
 .form-wrap textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
     width: 100%;
     margin-bottom: 1rem;
     padding: 1rem;
-    font-size: 1.7rem;
 }
 
 .form-wrap .click {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
     text-decoration: none;
     background: #8BAD97;
     display: inline-block;
     padding: 1rem;
-    font-size: 1.6rem;
 }
 
 .click {
