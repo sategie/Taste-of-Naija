@@ -32,14 +32,16 @@ header {
 }
 
 
-h2, h3 {
+h2,
+h3 {
     color: #04060C;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
-  font-size: 1.7rem;
+    font-size: 1.7rem;
 }
+
 #main {
     float: left;
     margin: 3rem 0 0 3rem;
@@ -194,6 +196,16 @@ footer #foot a {
 
 /* Menu styling */
 
+.menu {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-contain.menu-contain:nth-child(2n) {
+    background-color: #eee;
+  }
+
 .menu-contain {
     display: flex;
     clear: both;
@@ -206,6 +218,7 @@ footer #foot a {
     object-fit: cover;
     margin-right: 0.1rem;
     flex-shrink: 0;
+    border: 0.5rem solid #808080;
 }
 
 .menu-contain-text {
