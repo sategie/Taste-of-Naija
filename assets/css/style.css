@@ -209,7 +209,7 @@ footer #foot a {
 .menu-contain {
     display: flex;
     clear: both;
-    padding: 3rem;
+    padding: 3rem 1.5rem;
 }
 
 .menu-contain-image {
