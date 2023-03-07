@@ -213,8 +213,8 @@ footer #foot a {
 }
 
 .menu-contain-image {
-    width: 20rem;
-    height: 15rem;
+    width: 15rem;
+    height: 10rem;
     object-fit: cover;
     margin-right: 0.1rem;
     flex-shrink: 0;
@@ -326,10 +326,10 @@ footer #foot a {
         width: 80%;
     }
 
-    /* .menu-contain-image {
-        width: 8rem;
-        height: 8rem;
-    } */
+    .menu-contain-image {
+        width: 10rem;
+        height: 10rem;
+    }
 
     /* .menu-contain {
         clear: left;
@@ -352,6 +352,7 @@ footer #foot a {
         width: 31rem;
     }
 
+
 }
 
 /* Media query for 382px and below */
@@ -364,10 +365,10 @@ footer #foot a {
 
 
     .menu-contain-image {
-        width: 15rem;
+        width: 14rem;
         height: 15rem;
+        
     }
-
     .menu-contain-heading {
         display: flex;
         flex-direction: column;
