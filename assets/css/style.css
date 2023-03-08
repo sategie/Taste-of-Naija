@@ -1,152 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    background-color: #e9e4eb;
-    padding-bottom: 7rem;
-    max-width: 195rem;
-    margin-right: auto;
-    margin-left: auto;
-    letter-spacing: 0.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background-color: #e9e4eb;
+  padding-bottom: 7rem;
+  max-width: 195rem;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 0.2rem;
 }
 
 /* Page header section styling */
 /* Idea for header section styling taken from Code Institute's Love Running project */
 
 header {
-    overflow: auto;
-    background-color: #8BAD97;
-    font-size: 2rem;
+  overflow: auto;
+  background-color: #8BAD97;
+  font-size: 2rem;
 }
-
 
 h2,
 h3 {
-    color: #04060C;
+  color: #04060C;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7rem;
 }
 
 #main {
-    float: left;
-    margin: 3rem 0 0 3rem;
-    color: #04060C;
-    font-size: 4rem;
+  float: left;
+  margin: 3rem 0 0 3rem;
+  color: #04060C;
+  font-size: 4rem;
 }
 
 #main,
 #page {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 #page {
-    font-size: 2.3rem;
+  font-size: 2.3rem;
 }
 
 #page ul {
-    float: right;
-    color: #04060C;
-    margin-right: 3rem;
+  float: right;
+  color: #04060C;
+  margin-right: 3rem;
 
 }
 
 #page li {
-    float: left;
-    margin: 3rem 5rem;
-    list-style-type: none;
+  float: left;
+  margin: 3rem 5rem;
+  list-style-type: none;
 }
 
 #page ul li {
-    margin-right: 0.1rem;
+  margin-right: 0.1rem;
 }
 
 #page a {
-    text-decoration: none;
-    color: #04060C;
+  text-decoration: none;
+  color: #04060C;
 }
 
 #page a:hover {
-    border-bottom: 0.3rem dotted;
+  border-bottom: 0.3rem dotted;
 }
 
 .current {
-    border-bottom: 0.3rem solid;
+  border-bottom: 0.3rem solid;
 }
 
 /* Hero Image section */
 
-
 #main-image {
-    height: 62rem;
-    width: 100%;
-    overflow: hidden;
+  height: 62rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 #main-image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Contact and Opening Times section */
 
 .contact-open {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    font-size: 1.6rem;
-    max-width: 110rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.6rem;
+  max-width: 110rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .contact-open h2 {
-    padding-bottom: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 .left {
-    padding-left: 3rem;
-    flex-shrink: 0;
+  padding-left: 3rem;
+  flex-shrink: 0;
 }
 
 .left p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .left>a {
-    font-weight: bold;
-    text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .middle {
-    padding-left: 3rem;
-    flex-shrink: 0;
+  padding-left: 3rem;
+  flex-shrink: 0;
 }
 
 .middle p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .right {
-    padding-right: 3rem;
-    flex-shrink: 0;
+  padding-right: 3rem;
+  flex-shrink: 0;
 }
 
 /* Table border style */
@@ -154,166 +151,162 @@ p {
 table,
 th,
 td {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7rem;
-    border: 0.1rem solid black;
-    padding: 0.2rem;
-    border-spacing: 0.1rem;
-    margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7rem;
+  border: 0.1rem solid black;
+  padding: 0.2rem;
+  border-spacing: 0.1rem;
+  margin: 0 auto;
 }
 
 /* Footer styling */
 
 footer {
-    background-color: #8BAD97;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 5rem;
-    left: 0;
-    line-height: 5rem;
-    font-size: 1.8rem;
-    overflow: auto;
+  background-color: #8BAD97;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  left: 0;
+  line-height: 5rem;
+  font-size: 1.8rem;
+  overflow: auto;
 }
 
 footer #foot a {
-    text-decoration: none;
-    color: #04060C;
+  text-decoration: none;
+  color: #04060C;
 }
 
 #foot {
-    display: flex;
-    justify-content: space-around;
-    font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
 }
-
 
 #foot>a:hover {
-    color: #1877f2;
+  color: #1877f2;
 
 }
-
 
 /* Menu styling */
 
 .menu {
-    max-width: 120rem;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-contain.menu-contain:nth-child(2n) {
-    background-color: #eee;
-  }
+  background-color: #eee;
+}
 
 .menu-contain {
-    display: flex;
-    clear: both;
-    padding: 3rem 1.5rem;
+  display: flex;
+  clear: both;
+  padding: 3rem 1.5rem;
 }
 
 .menu-contain-image {
-    width: 15rem;
-    height: 10rem;
-    object-fit: cover;
-    margin-right: 0.1rem;
-    flex-shrink: 0;
-    border: 0.5rem solid #808080;
+  width: 15rem;
+  height: 10rem;
+  object-fit: cover;
+  margin-right: 0.1rem;
+  flex-shrink: 0;
+  border: 0.5rem solid #808080;
 }
 
 .menu-contain-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7rem;
-    color: #04060C;
-    padding-left: 1.5rem;
-    padding-right: 2rem;
-    flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7rem;
+  color: #04060C;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  flex-grow: 1;
 
 }
 
 .menu-contain-heading {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-
 .menu-list {
-    margin-right: 5rem;
+  margin-right: 5rem;
 }
 
 .menu-price {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 /* Feedback page styling */
 
 #intro {
-    margin-left: 1.5rem;
-    padding: 2rem;
-    font-size: 1.7rem;
+  margin-left: 1.5rem;
+  padding: 2rem;
+  font-size: 1.7rem;
 }
 
 .form-wrap {
-    width: 40rem;
-    margin-left: 1.5rem;
-    padding: 2rem;
-    font-size: 1.6rem;
+  width: 40rem;
+  margin-left: 1.5rem;
+  padding: 2rem;
+  font-size: 1.6rem;
 }
 
 .form-wrap .input-data {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-    width: 100%;
-    margin-bottom: 1rem;
-    padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .form-wrap textarea {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7rem;
-    width: 100%;
-    margin-bottom: 1rem;
-    padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .form-wrap .click {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.6rem;
-    text-decoration: none;
-    background: #8BAD97;
-    display: inline-block;
-    padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  text-decoration: none;
+  background: #8BAD97;
+  display: inline-block;
+  padding: 1rem;
 }
 
 .click {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .click:hover {
-    border-style: dotted;
+  border-style: dotted;
 }
 
 /* Media query for 1100px and below */
 
 @media screen and (max-width:1100px) {
 
-    #page {
-        float: left;
-        margin-left: -1rem;
-        clear: left;
+  #page {
+    float: left;
+    margin-left: -1rem;
+    clear: left;
 
-    }
+  }
 
-    .contact-open {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.5rem;
-    }
+  .contact-open {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
 
-    .right {
-        padding-left: 3rem;
-    }
-
+  .right {
+    padding-left: 3rem;
+  }
 
 }
 
@@ -321,89 +314,83 @@ footer #foot a {
 
 @media screen and (max-width:488px) {
 
-    #main {
-       font-size: 3.2rem;
-     margin-left: 1.3rem;
-     }
-   
-     #page {
-       font-size: 2.1rem;
-       margin-left: auto;
-       margin-right: auto;
-     }
-   
-       #page ul li {
-   /*         float: left;
-           width: 80%; */
-         padding-left: 0;
-         margin-left: 1.5rem;
-       }
-   
-       .menu-contain-image {
-           width: 10rem;
-           height: 10rem;
-       }
-   
-       .menu-list {
-           font-size: 1.6rem;
-       }
-   
-       .menu-price {
-           font-size: 1.6rem;
-       }
-   
-   
-       .form-wrap {
-           width: 35rem;
-       }
-   
-       textarea {
-           width: 31rem;
-       }
-   
-   
-   }
+  #main {
+    font-size: 3.2rem;
+    margin-left: 1.3rem;
+  }
+
+  #page {
+    font-size: 2.1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #page ul li {
+    padding-left: 0;
+    margin-left: 1.5rem;
+  }
+
+  .menu-contain-image {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .menu-list {
+    font-size: 1.6rem;
+  }
+
+  .menu-price {
+    font-size: 1.6rem;
+  }
+
+  .form-wrap {
+    width: 35rem;
+  }
+
+  textarea {
+    width: 31rem;
+  }
+
+}
 
 /* Media query for 382px and below */
 
 @media screen and (max-width:382px) {
 
-    body {
-        overflow-x: hidden;
-    }
+  body {
+    overflow-x: hidden;
+  }
 
+  .menu-contain-image {
+    width: 14rem;
+    height: 15rem;
 
-    .menu-contain-image {
-        width: 14rem;
-        height: 15rem;
-        
-    }
-    .menu-contain-heading {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        margin-bottom: 5rem;
-    }
+  }
 
+  .menu-contain-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+  }
 
-    .menu-list {
-        font-size: 1.6rem;
-        margin-right: 3rem;
-        margin-bottom: 5rem;
-    }
+  .menu-list {
+    font-size: 1.6rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+  }
 
-    .menu-price {
-        font-size: 1.6rem;
-    }
+  .menu-price {
+    font-size: 1.6rem;
+  }
 
+  .form-wrap {
+    width: 30rem;
+  }
 
-    .form-wrap {
-        width: 30rem;
-    }
-
-    textarea {
-        width: 26rem;
-    }
+  textarea {
+    width: 26rem;
+  }
 
 }

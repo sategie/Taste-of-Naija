@@ -82,6 +82,8 @@ The website provides useful information about the restaurant such as the address
 
  - Screenpresso: Used to capture the screenshots for the Readme document
 
+ - Beautifier: Used to remove extra unnecessary spaces in the css styling
+
  - Marvel App: Used to design the wireframes for the project at the initial design stages
 
  ## Testing
