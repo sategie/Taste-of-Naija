@@ -321,39 +321,48 @@ footer #foot a {
 
 @media screen and (max-width:488px) {
 
-    #page ul li {
-        float: left;
-        width: 80%;
-    }
-
-    .menu-contain-image {
-        width: 10rem;
-        height: 10rem;
-    }
-
-    /* .menu-contain {
-        clear: left;
-    } */
-
-    .menu-list {
-        font-size: 1.6rem;
-    }
-
-    .menu-price {
-        font-size: 1.6rem;
-    }
-
-
-    .form-wrap {
-        width: 35rem;
-    }
-
-    textarea {
-        width: 31rem;
-    }
-
-
-}
+    #main {
+       font-size: 3.2rem;
+     margin-left: 1.3rem;
+     }
+   
+     #page {
+       font-size: 2.1rem;
+       margin-left: auto;
+       margin-right: auto;
+     }
+   
+       #page ul li {
+   /*         float: left;
+           width: 80%; */
+         padding-left: 0;
+         margin-left: 1.5rem;
+       }
+   
+       .menu-contain-image {
+           width: 10rem;
+           height: 10rem;
+       }
+   
+       .menu-list {
+           font-size: 1.6rem;
+       }
+   
+       .menu-price {
+           font-size: 1.6rem;
+       }
+   
+   
+       .form-wrap {
+           width: 35rem;
+       }
+   
+       textarea {
+           width: 31rem;
+       }
+   
+   
+   }
 
 /* Media query for 382px and below */
 
