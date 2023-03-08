@@ -5,7 +5,7 @@ The website provides useful information about the restaurant such as the address
 
 ![Image of Taste of Naija website on different devices](/documentation/taste-of-naija.png)
 
-## Content
+## Contents
 
 - [Features](#features)
 
