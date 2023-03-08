@@ -3,7 +3,7 @@
 Taste of Naija is a website built for the first imaginary Nigerian restaurant in Würzburg. The website targets people in and around Würzburg who love African food and those who are curious about how African food tastes.
 The website provides useful information about the restaurant such as the address, opening times, contact information and food menu.
 
-![Image of Taste of Naija website on different devices](/assets/images/taste-of-naija.png)
+![Image of Taste of Naija website on different devices](/documentation/taste-of-naija.png)
 
 ## Features
 
@@ -15,14 +15,14 @@ The website provides useful information about the restaurant such as the address
     - The section is identical on all pages and allows the user to navigate from one page to another without having to go back to the Start page.
 
 
-![Navigation bar for Taste of Naija website](/assets/images/nav-bar.png)
+![Navigation bar for Taste of Naija website](/documentation/nav-bar.png)
 
 - The Hero Image
 
     - The main page image displays the 'Naija Jollof' (Nigerian jollof rice) as it is popularly called.
     - This image was selected because it is one of the most popular dishes in Nigeria and one of the main dishes customers expect to find on the menu when they visit the restaurant.
 
-![Hero Image for Taste of Naija website](/assets/images/hero-image.png)
+![Hero Image for Taste of Naija website](/documentation/hero-image.png)
 
 - Contact and Opening Times section
 
@@ -34,7 +34,7 @@ The website provides useful information about the restaurant such as the address
 
         - Opening Times: This shows the days of the week and times when the restaurant is open/closed for business.
 
-![Screenshot of Contact and Opening Times section](/assets/images/contact-and-opening-times.png)
+![Screenshot of Contact and Opening Times section](/documentation/contact-and-opening-times.png)
 
 - The Footer
 
@@ -42,7 +42,7 @@ The website provides useful information about the restaurant such as the address
 
     - These links are set to open in a new tab when clicked and they are highlighted in blue when hovered with a mouse to enable users know that they are links.
 
-![Screenshot of footer page](/assets/images/footer.png)
+![Screenshot of footer page](/documentation/footer.png)
 
 - The Menu
 
@@ -50,7 +50,7 @@ The website provides useful information about the restaurant such as the address
 
     - On smaller screens, the pictures are made slightly bigger while the prices are placed beneath the dish names using the 'flex-direction:column;' property
 
-![Food menu and price list](/assets/images/food-menu.png)
+![Food menu and price list](/documentation/food-menu.png)
 
 - The Feedback
 
@@ -60,7 +60,7 @@ The website provides useful information about the restaurant such as the address
 
     - There is a 'Clear Form' button which enables the user clear the entire form if they wish to do so.
 
-![Feedback form](/assets/images/feedback.png)
+![Feedback form](/documentation/feedback.png)
 
 ### Features Left to Implement
 
@@ -96,9 +96,9 @@ The website provides useful information about the restaurant such as the address
 
         - No errors were found using the W3C CSS (jigsaw) Validator
 
-![Screenshot of HTML validator showing no errors in HTML](/assets/images/html-validator.png)
+![Screenshot of HTML validator showing no errors in HTML](/documentation/testing/html-validator.png)
 
-![Screenshot of CSS validator showing  no errors in CSS](/assets/images/css-validator.png)
+![Screenshot of CSS validator showing  no errors in CSS](/documentation/testing/css-validator.png)
 
 The link to the full CSS validation results can be found here:
 
@@ -116,7 +116,7 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
     - The only thing that stood out while using Firefox was the 'Age' field in the Feedback page which displays the number selector icon constantly, while the other browsers only display the selector icon when the field is hovered on.
 
-![Feedback page on Firefox](/assets/images/feedback-firefox.png)
+![Feedback page on Firefox](/documentation/testing/feedback-firefox.png)
 
 | <b>Feedback page on Firefox</b> |
 
@@ -124,7 +124,7 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
     - Lighthouse was used to test the project using the following criteria: Performance, Accessibility, Best Practices and SEO.
 
- ![Screenshot of project testing results on Lighthouse](/assets/images/lighthouse-testing.png)
+ ![Screenshot of project testing results on Lighthouse](/documentation/testing/lighthouse-testing.png)
 
 ## Deployment
 
