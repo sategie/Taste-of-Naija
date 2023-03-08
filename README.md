@@ -5,11 +5,25 @@ The website provides useful information about the restaurant such as the address
 
 ![Image of Taste of Naija website on different devices](/documentation/taste-of-naija.png)
 
+## Content
+
+- [Features](#features)
+
+- [Technologies used](#technologies-used)
+
+- [Testing](#testing)
+
+- [Deployment](#deployment)
+
+- [Credits](#credits)
+
+- [Acknowledgements](#acknowledgements)
+
 ## Features
 
 ### Existing Features
 
-- Navigation Bar
+- **Navigation Bar**
 
     - This appears on all three pages in the project. It includes links to the 'Taste of Naija' logo, the Start, Menu and Feedback pages.
     - The section is identical on all pages and allows the user to navigate from one page to another without having to go back to the Start page.
@@ -17,14 +31,14 @@ The website provides useful information about the restaurant such as the address
 
 ![Navigation bar for Taste of Naija website](/documentation/nav-bar.png)
 
-- The Hero Image
+- '**The Hero Image**
 
     - The main page image displays the 'Naija Jollof' (Nigerian jollof rice) as it is popularly called.
     - This image was selected because it is one of the most popular dishes in Nigeria and one of the main dishes customers expect to find on the menu when they visit the restaurant.
 
 ![Hero Image for Taste of Naija website](/documentation/hero-image.png)
 
-- Contact and Opening Times section
+- **Contact and Opening Times section**
 
     - This section shows three different sub-sections which are all centered as much as possible to enable users view the information easily on wider screens:
         
@@ -36,7 +50,7 @@ The website provides useful information about the restaurant such as the address
 
 ![Screenshot of Contact and Opening Times section](/documentation/contact-and-opening-times.png)
 
-- The Footer
+- **The Footer**
 
     - The footer has the social media links for the restaurant to enable customers get regular updates on the restaurant activities.
 
@@ -44,7 +58,7 @@ The website provides useful information about the restaurant such as the address
 
 ![Screenshot of footer page](/documentation/footer.png)
 
-- The Menu
+- **The Menu**
 
     - The menu section displays the different dishes on offer by the restaurant with their corresponding prices.
 
@@ -52,7 +66,7 @@ The website provides useful information about the restaurant such as the address
 
 ![Food menu and price list](/documentation/food-menu.png)
 
-- The Feedback
+- **The Feedback**
 
     - The feedback section allows users provide useful suggestions and ideas to help the restaurant improve its services.
 
@@ -64,7 +78,7 @@ The website provides useful information about the restaurant such as the address
 
 ### Features Left to Implement
 
-- Hamburger Menu
+- **Hamburger Menu**
 
     - A hamburger menu to appear for the different pages on smaller screen sizes.
 
@@ -88,7 +102,7 @@ The website provides useful information about the restaurant such as the address
 
  ## Testing
 
-- Validators
+- **Validators**
 
     - HTML
 
@@ -106,7 +120,7 @@ The link to the full CSS validation results can be found here:
 
 http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsategie.github.io%2FTaste-of-Naija%2F&usermedium=all&vextwarning=&warning=1
 
-- Browser Compatibility
+- **Browser Compatibility**
 
     - The project was tested on the three browsers listed below. The pages ran smoothly on all three browsers and there were no significant differences in the different browsers.
 
@@ -122,7 +136,7 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
 | <b>Feedback page on Firefox</b> |
 
-- Lighthouse
+- **Lighthouse**
 
     - Lighthouse was used to test the project using the following criteria: Performance, Accessibility, Best Practices and SEO.
 
@@ -174,7 +188,7 @@ The project is live at https://sategie.github.io/Taste-of-Naija/
 
 ## Credits
 
-- Content
+- **Content**
 
     - The idea for the Header HTML and CSS was taken from Code Institute's Love Running project.
 
@@ -182,7 +196,7 @@ The project is live at https://sategie.github.io/Taste-of-Naija/
 
     - The fonts used for the project were obtained from Google Fonts.
 
-- Media
+- **Media**
 
     - The images used in the project were downloaded mostly from Unsplash.
 
