@@ -2,6 +2,7 @@
 
 Taste of Naija is a website built for the first imaginary Nigerian restaurant in Würzburg. The website targets people in and around Würzburg who love African food and those who are curious about how African food tastes.
 The website provides useful information about the restaurant such as the address, opening times, contact information and food menu.
+The website is created for devices having a screen resolution of at least 320 pixels.
 
 ![Image of Taste of Naija website on different devices](/documentation/taste-of-naija.png)
 
@@ -97,6 +98,8 @@ The website provides useful information about the restaurant such as the address
  - Screenpresso: Used to capture the screenshots for the Readme document
 
  - Beautifier: Used to remove extra unnecessary spaces in the css styling
+
+ - AM I Responsive: This was used to show the project responsiveness on various devices.
 
  - Marvel App: Used to design the wireframes for the project at the initial design stages
 
