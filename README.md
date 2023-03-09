@@ -25,8 +25,8 @@ The website provides useful information about the restaurant such as the address
 
 - **Navigation Bar**
 
-    - This appears on all three pages in the project. It includes links to the 'Taste of Naija' logo, the Start, Menu and Feedback pages.
-    - The section is identical on all pages and allows the user to navigate from one page to another without having to go back to the Start page.
+    - This appears on all three pages in the project. It includes links to the 'Taste of Naija' logo, the Home, Menu and Feedback pages.
+    - The section is identical on all pages and allows the user to navigate from one page to another without having to go back to the Home page.
 
 
 ![Navigation bar for Taste of Naija website](/documentation/nav-bar.png)
@@ -118,11 +118,11 @@ The website provides useful information about the restaurant such as the address
 
 - The website is created for devices having a device-width of at least 320 pixels. Below are short Gifs showing how the website looks and scrolls on the iPhone4 device which has a device-width of 320 pixels.
 
-    - ![Gif showing the look of the start page when scrolling on the iPhone4](/documentation/testing/start-page-iphone4.gif)
+    - ![Gif showing the look of the Home page when scrolling on the iPhone4](/documentation/testing/home-page-iphone4.gif)
 
-    - ![Gif showing the look of the menu page when scrolling on the iPhone4](/documentation/testing/food-menu-iphone4.gif)
+    - ![Gif showing the look of the Menu page when scrolling on the iPhone4](/documentation/testing/food-menu-iphone4.gif)
 
-    - ![Gif showing the look of the feedback page when scrolling on the iPhone4](/documentation/testing/feedback-iphone4.gif)
+    - ![Gif showing the look of the Feedback page when scrolling on the iPhone4](/documentation/testing/feedback-iphone4.gif)
 
 - **Validators**
 
