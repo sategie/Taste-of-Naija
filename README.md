@@ -162,7 +162,35 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
     - Lighthouse was used to test the project using the following criteria: Performance, Accessibility, Best Practices and SEO.
 
- ![Screenshot of project testing results on Lighthouse](/documentation/testing/lighthouse-testing.png)
+    - It was used on Google Chrome in Incognito mode to test the Home, Menu and Feedback pages.
+
+ ![Screenshot of Home page testing results on Lighthouse](/documentation/testing/lighthouse-testing-home.png)
+
+ ![Screenshot of Menu page testing results on Lighthouse](/documentation/testing/lighthouse-testing-menu.png)
+
+ ![Screenshot of Feedback page testing results on Lighthouse](/documentation/testing/lighthouse-testing-feedback.png)
+
+ - Testing Outcomes
+
+|                **Test**               |                         **Test Action**                         |                                            **Expected Outcome**                                           | **Result** |
+|:-------------------------------------:|:---------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:----------:|
+| Navigation Bar: Logo                  | Click on 'Taste of Naija' logo                                  | Browser goes to the Home page                                                                             | PASS       |
+| Navigation Bar Links: Click           | Click on the Home, Menu or Feedback links                       | Browser goes to the respective Home, Menu and Feedback pages                                              | PASS       |
+| Navigation Bar Links: Hover           | Hover on the Home, Menu or Feedback links                       | A dotted underline appears under the respective link                                                      | PASS       |
+| Google maps link in 'Address' section | Click on the Google maps link                                   | Google maps opens in a new tab with the address of Taste of Naija displayed                               | PASS       |
+| Footer links: Click                   | Click on the Facebook, Twitter or Instagram links in the footer | Browser opens the Facebook, Twitter or Instagram page in a new tab                                        | PASS       |
+| Footer links: Hover                   | Hover on the Facebook, Twitter or Instagram links in the footer | The respective links change to a blue color                                                               | PASS       |
+| Feedback Form: First Name field       | Attempt to submit form without entering text                    | User is prompted to fill in the first name                                                                | PASS       |
+| Feedback Form: Age field              | Attempt to submit form without entering a number                | User is prompted to enter a number                                                                        | PASS       |
+| Feedback Form: Email field            | Not a required field. Enter characters without adding an @ sign | User is informed that the field must have an @ sign                                                       | PASS       |
+| Feedback Form: Feedback field         | Attempt to submit form without entering anything in the box     | User is prompted to fill the field                                                                        | PASS       |
+| Feedback Form Buttons: Hover          | Hover on the 'Submit' or 'Clear Form' buttons                   | A dotted border appears on the button                                                                     | PASS       |
+| Feedback Form Submit Button: Click    | Click on 'Submit Form' after filling required fields            | Form is successfully submitted. A new page opens with the confirmation of the submission and entered data | PASS       |
+| Feedback Form Clear Button: Click     | Click on 'Clear Form' after entering data in the fields         | All entered data are cleared from the form                                                                | PASS       |
+
+
+
+
 
 ## Deployment
 
