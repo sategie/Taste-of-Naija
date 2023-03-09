@@ -98,6 +98,8 @@ The website provides useful information about the restaurant such as the address
 
  - Beautifier: Used to remove extra unnecessary spaces in the css styling
 
+ - Tables Generator: Used to generate the table used in the Testing section
+
  - AM I Responsive: This was used to show the project responsiveness [(see responsiveness image here)](#taste-of-naija) on the following device viewports:
 
     - Desktop
