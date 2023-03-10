@@ -164,7 +164,9 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 
     - Lighthouse was used to test the project using the following criteria: Performance, Accessibility, Best Practices and SEO.
 
-    - It was used on Google Chrome in Incognito mode to test the Home, Menu and Feedback pages.
+    - The colors and fonts chosen are easy to read by users.
+
+    - Lighthouse was used on Google Chrome in Incognito mode to test the Home, Menu and Feedback pages for the above mentioned criteria.
 
  ![Screenshot of Home page testing results on Lighthouse](/documentation/testing/lighthouse-testing-home.png)
 
@@ -191,7 +193,9 @@ http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3
 | Feedback Form Clear Button: Click     | Click on 'Clear Form' after entering data in the fields         | All entered data are cleared from the form                                                                | PASS       |
 
 
+- **Unfixed Bugs**
 
+    - There are no unfixed bugs.
 
 
 ## Deployment
